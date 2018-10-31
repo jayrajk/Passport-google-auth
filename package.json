@@ -1,0 +1,35 @@
+{
+  "name": "passport-google-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayrajk/Passport-google-auth.git"
+  },
+  "author": "Jayraj Kapadia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.15.2",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-session": "~1.14.1",
+    "method-override": "~2.3.6",
+    "mongoose": "~4.13.1",
+    "morgan": "~1.7.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "~1.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jayrajk/Passport-google-auth/issues"
+  },
+  "homepage": "https://github.com/jayrajk/Passport-google-auth#readme"
+}
